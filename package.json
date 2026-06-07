@@ -1,0 +1,14 @@
+{
+  "name": "pharmacovigilance-safety-case-suite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Adverse event intake, case processing, seriousness assessment, MedDRA coding, submissions, and signal detection.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node scripts/smoke-test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

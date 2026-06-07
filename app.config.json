@@ -1,0 +1,145 @@
+{
+  "slug": "pharmacovigilance-safety-case-suite",
+  "title": "Pharmacovigilance Safety Case Suite",
+  "buyer": "Pharma safety teams, CROs, medical device safety teams",
+  "description": "Adverse event intake, case processing, seriousness assessment, MedDRA coding, submissions, and signal detection.",
+  "modules": [
+    {
+      "id": "case-intake",
+      "table": "caseIntake",
+      "label": "Case Intake",
+      "description": "Case Intake workspace for Pharmacovigilance Safety Case Suite.",
+      "subfeatures": [
+        "Source capture",
+        "Duplicate detection",
+        "Validity checks"
+      ],
+      "prefix": "CI",
+      "seedValues": [
+        "Source capture",
+        "Duplicate detection",
+        "Validity checks"
+      ]
+    },
+    {
+      "id": "triage",
+      "table": "triage",
+      "label": "Safety Triage",
+      "description": "Safety Triage workspace for Pharmacovigilance Safety Case Suite.",
+      "subfeatures": [
+        "Seriousness",
+        "Expectedness",
+        "Causality"
+      ],
+      "prefix": "ST",
+      "seedValues": [
+        "Seriousness",
+        "Expectedness",
+        "Causality"
+      ]
+    },
+    {
+      "id": "coding",
+      "table": "coding",
+      "label": "Medical Coding",
+      "description": "Medical Coding workspace for Pharmacovigilance Safety Case Suite.",
+      "subfeatures": [
+        "MedDRA terms",
+        "Product coding",
+        "Narrative QA"
+      ],
+      "prefix": "MC",
+      "seedValues": [
+        "MedDRA terms",
+        "Product coding",
+        "Narrative QA"
+      ]
+    },
+    {
+      "id": "regulatory",
+      "table": "regulatory",
+      "label": "Regulatory Reporting",
+      "description": "Regulatory Reporting workspace for Pharmacovigilance Safety Case Suite.",
+      "subfeatures": [
+        "7-day clock",
+        "15-day clock",
+        "Submission status"
+      ],
+      "prefix": "RR",
+      "seedValues": [
+        "7-day clock",
+        "15-day clock",
+        "Submission status"
+      ]
+    },
+    {
+      "id": "follow-up",
+      "table": "followUp",
+      "label": "Follow-up",
+      "description": "Follow-up workspace for Pharmacovigilance Safety Case Suite.",
+      "subfeatures": [
+        "Reporter queries",
+        "Missing data",
+        "Case closure"
+      ],
+      "prefix": "F",
+      "seedValues": [
+        "Reporter queries",
+        "Missing data",
+        "Case closure"
+      ]
+    },
+    {
+      "id": "signal-detection",
+      "table": "signalDetection",
+      "label": "Signal Detection",
+      "description": "Signal Detection workspace for Pharmacovigilance Safety Case Suite.",
+      "subfeatures": [
+        "Disproportionality",
+        "Trend review",
+        "Safety meetings"
+      ],
+      "prefix": "SD",
+      "seedValues": [
+        "Disproportionality",
+        "Trend review",
+        "Safety meetings"
+      ]
+    },
+    {
+      "id": "quality",
+      "table": "quality",
+      "label": "Quality Review",
+      "description": "Quality Review workspace for Pharmacovigilance Safety Case Suite.",
+      "subfeatures": [
+        "QC findings",
+        "Rework queue",
+        "Audit readiness"
+      ],
+      "prefix": "QR",
+      "seedValues": [
+        "QC findings",
+        "Rework queue",
+        "Audit readiness"
+      ]
+    },
+    {
+      "id": "aggregate-reports",
+      "table": "aggregateReports",
+      "label": "Aggregate Reports",
+      "description": "Aggregate Reports workspace for Pharmacovigilance Safety Case Suite.",
+      "subfeatures": [
+        "PBRER",
+        "DSUR",
+        "Line listings"
+      ],
+      "prefix": "AR",
+      "seedValues": [
+        "PBRER",
+        "DSUR",
+        "Line listings"
+      ]
+    }
+  ],
+  "port": 5606
+}
